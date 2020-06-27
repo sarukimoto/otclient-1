@@ -1,6 +1,6 @@
-[![Build Status](https://secure.travis-ci.org/edubart/otclient.svg?branch=master)](http://travis-ci.org/edubart/otclient)
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/opentibiabr/otclient?branch=develop&passingText=develop%20-%20OK&svg=true)](https://ci.appveyor.com/project/opentibiabr/otclient)
+[![Build Status](https://secure.travis-ci.org/opentibiabr/otclient.svg?branch=develop)](http://travis-ci.org/opentibiabr/otclient)
 [![Discord Channel](https://img.shields.io/discord/528117503952551936.svg?label=discord)](https://discord.gg/3NxYnyV)
-[![Open Source Helpers](https://www.codetriage.com/edubart/otclient/badges/users.svg)](https://www.codetriage.com/edubart/otclient)
 
 ### What is otclient?
 
@@ -16,8 +16,8 @@ or connect to one listed on [otservlist](https://otservlist.org/).
 
 ### Where do I download?
 
-Compiled for Windows can be found here (but can be outdated):
-* [Windows Builds](https://forums.otserv.com.br/index.php?/forums/topic/169346-otservbr-global-otclient/)
+Compiled for Windows can be found here:
+* [Windows Builds](https://ci.appveyor.com/project/opentibiabr/otclient)
 
 Compatible Dat and Spr with [otservbr-global](https://github.com/opentibiabr/otservbr-global):
 * [Client 10](https://github.com/opentibiabr/tools/blob/master/Tibia%20Client%2010.rar)
@@ -42,12 +42,15 @@ In short, if you need to compile OTClient, follow these tutorials:
 * [Compiling on Linux](https://github.com/edubart/otclient/wiki/Compiling-on-Linux)
 * [Compiling on OS X](https://github.com/edubart/otclient/wiki/Compiling-on-Mac-OS-X)
 
+Forum OTServBR:
+* [Compiling on Windows](https://forums.otserv.com.br/index.php?/forums/topic/169297-windowsvc2019-compilando-sources-otclient-vcpkg/)
+
 ### Build and run with Docker
 
 To build the image:
 
 ```sh
-docker build -t edubart/otclient .
+docker build -t opentibiabr/otclient .
 ```
 
 To run the built image:
@@ -74,15 +77,15 @@ or talk with us at the gitter chat.
 
 ### Bugs
 
-Have found a bug? Please create an issue in our [bug tracker](https://github.com/edubart/otclient/issues)
+Have found a bug? Please create an issue in our [bug tracker](https://github.com/opentibiabr/otclient/issues)
 
 ### Contributing
 
-We encourage you to contribute to otclient! You can make pull requests of any improvement in our github page, alternatively, see [Contributing Wiki Page](https://github.com/edubart/otclient/wiki/Contributing).
+We encourage you to contribute to otclient! You can make pull requests of any improvement in our github page, alternatively, see [Contributing Wiki Page](https://github.com/opentibiabr/otclient/wiki/Contributing).
 
 ### Contact
 
-Talk directly with us at the gitter chat [![Join the chat at https://gitter.im/edubart/otclient](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/edubart/otclient?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge).
+[![Discord Channel](https://img.shields.io/discord/528117503952551936.svg?label=discord)](https://discord.gg/3NxYnyV)
 
 ### License
 
